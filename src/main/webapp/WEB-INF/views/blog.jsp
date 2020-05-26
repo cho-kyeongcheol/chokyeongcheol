@@ -53,7 +53,7 @@
 	line-height: 1.6;
 }
 </style>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>
 </head>
 <body>
