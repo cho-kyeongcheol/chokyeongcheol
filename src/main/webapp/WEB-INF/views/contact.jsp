@@ -8,32 +8,22 @@
 <meta charset="UTF-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scaleable=no">
-<title>HOME</title>
+<title>CONTACT</title>
 <link rel="shortcut icon" href="/images/favicon/favicon.ico">
 <link rel="apple-touch-icon-precomposed"
 	href="/images/favicon/home-touch-icon.png">
 <link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
-<style>
-/* HOME 슬라이더 영역 CSS */
-.slider img {
-display:block;
-width:100%;
-max-width:100%;
-height:auto;
-}
-</style>
+
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="/resources/js/common.js"></script>
-<!-- 사용자 스크립트 -->
-<script>
-
-</script>
 </head>
 <body>
-<!-- 더미 데이터:CSS작업전 내용 -->
-	<div id="wrap">
-		<header class="header cfixed">
+
+
+
+
+<header class="header cfixed">
 			<h1 class="logo">
 				<a href="">LOGO</a>
 			</h1>
@@ -49,12 +39,9 @@ height:auto;
 			<span class="menu-toggle-btn"> <span></span> <span></span> <span></span>
 			</span>
 		</header>
-		<article class="slider">
-			<img src="/resources/images/kakao.jpg" alt="">
-		</article>
 		<footer class="footer">
 			<p class="copyright">LOGO</p>
 		</footer>
-	</div>
+
 </body>
 </html>
