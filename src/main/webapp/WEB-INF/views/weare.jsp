@@ -40,7 +40,7 @@ text-align:center;
 margin-top:0;
 }
 .promotion-section .promo-list li img{
-height:100px;
+height:400px;
 }
 .promotion-section .promo-list li h3{
 margin:29px 0 20px 0;
@@ -53,6 +53,36 @@ font-family:'궁서'';
 color:#616161;
 line-height:1.5;
 }
+
+/* 태블릿용 CSS */
+@media all and (min-width:768px){
+.display-section{
+margin-top:95px;
+}
+/* 태블릿 WE ARE 내용 영역 CSS*/
+.promotion-section{
+  margin-top:110px;
+  }
+  .promotion-section .promo-list li{
+  float:left;
+  width:23.046875%;
+  /* 177px ÷ 768px*/
+  margin-left:2.604166666666667%;
+  /* 20px ÷ 768px*/
+  margin-top:0;
+  }
+ 
+  .promotion-section .promo-list li:first-child{
+  margin-left:0;
+  }
+  
+  .promotion-section .promo-list li img{
+	height:150px;
+}
+
+}
+
+
 </style>
 <script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>
@@ -94,22 +124,22 @@ line-height:1.5;
 			<section class="promotion-section">
 				<div class="container">
 					<ul class="promo-list">
-						<li><a href="#"> <img src="/resources/images/kakao.jpg"
+						<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg"
 								alt="">
 								<h3>HOME</h3>
 								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
-						<li><a href="#"> <img src="/resources/images/kakao.jpg"
+						<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg"
 								alt="">
 								<h3>WE ARE</h3>
 								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
-						<li><a href="#"> <img src="/resources/images/kakao.jpg"
+						<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg"
 								alt="">
 								<h3>WORK</h3>
 								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
-						<li><a href="#"> <img src="/resources/images/kakao.jpg"
+						<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg"
 								alt="">
 								<h3>BLOG</h3>
 								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>

@@ -19,22 +19,84 @@
 <script src="/resources/js/common.js"></script>
 
 <style>
-.contact-section{
-margin-top:109px;
+.contact-section {
+	margin-top: 109px;
 }
-.contact-section .sec-tit{
-margin-bottom:47px;
-text-align:center;
+
+.contact-section .sec-tit {
+	margin-bottom: 47px;
+	text-align: center;
 }
-.contact-section .form-box .form input{
-    width: 100%;
-    background: transparent;
-    line-height: 1.2;
-    padding: 0 2px;
-    height: 50px;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #dbdbdb;
+
+.contact-section .form-box .form input {
+	width: 100%;
+	background: transparent;
+	line-height: 1.2;
+	padding: 0 2px;
+	height: 50px;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #dbdbdb;
+}
+
+.blind { /* 라벨 태그 숨기기 */
+	position: absolute;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.contact-scetion .form-box .textarea {
+	width: 100%;
+	background: transparent;
+	line-height: 1.2;
+	ouline: none;
+	border: none;
+	border-bottom: 2px solid #dbdbdb;
+	min-height: 150px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.contact-section .form-box .send-btn {
+	margin-top: 36px;
+	text-align: right;
+}
+
+.contact-section .form-box .send-btn button {
+	padding: 15px;
+	margin: 0;
+	border: 0;
+	font-size: 12px;
+	color: #fff;
+	background: #3f51b5;
+	font-family: "궁서체";
+	cursor: pointer;
+}
+/* 태블릿용 CSS*/
+@media all and (min-width:768px){
+/* 태블릿 CONTACT 영역 CSS */
+  /* 태블릿 CONTACT US 영역 CSS */
+  .contact-section{
+  margin-top:176px;
+  }
+  .contact-section .sec-tit{
+  margin-bottom:76px;
+  }
+  .contact-section .form-box .form, .contact-section .form-box .textarea{
+  float:left;
+  width:48.69791666666667%;
+  /* 374px ÷ 768px*/
+  }
+  .contact-section .form-box .form{
+  margin-right:2.604166666666667%;
+  /* 20px ÷ 768px*/
+  }
+  .contact-section .form-box .form input:last-child{
+  margin-bottom:0;
+  }
 }
 </style>
 
@@ -86,14 +148,11 @@ text-align:center;
 		</div>
 	</section>
 
-
-
 	<footer class="footer">
-		
-		
-		<iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.1908531424174!2d127.18028131558675!3d36.83790497994078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b293c64087a5b%3A0x1873dee0e6399a00!2z67Cx7ISd66y47ZmU64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1513569521608"
-				width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-				</iframe>
+		<iframe	src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.1908531424174!2d127.
+			18028131558675!3d36.83790497994078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b293c64087a5b%3A0x1873dee0e6399a00!2z67Cx7ISd66y47ZmU64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1513569521608"
+				width="600"	height="450" frameborder="0" style="border: 0" allowfullscreen>
+		</iframe>
 		<p class="copyright">LOGO</p>
 	</footer>
 

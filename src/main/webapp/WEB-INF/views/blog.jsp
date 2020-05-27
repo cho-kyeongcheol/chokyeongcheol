@@ -52,6 +52,26 @@
 	font-weight: normal;
 	line-height: 1.6;
 }
+/* 태블릿용 CSS*/
+@media all and (min-width:768px){
+.blog-section{
+margin-top:124px;
+}
+.blog-section .sec-tit {
+margin-bottom:76px;
+}
+.blog-section .blog-list li{
+float:left;
+width:31.597222222222266%;
+margin-left:2.6041666666%;
+margin-top:0;
+}
+.blog-section .blog-list li:first-child{
+margin-left:0;
+}
+
+}
+
 </style>
 <script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>
@@ -79,17 +99,17 @@
 		<div class="container">
 			<h2 class="sec-tit">BLOG</h2>
 			<ul class="blog-list">
-				<li><a href="/"> <img src="/resources/images/kakao.jpg" alt="">
+				<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg" alt="">
 				</a> <time datetime="">MAY 26, 2020</time> <a href>
 						<h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사입니다.</h3>
 				</a></li>
 
-				<li><a href> <img src="/resources/images/kakao.jpg" alt="">
+				<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg" alt="">
 				</a> <time datetime="">MAY 26, 2020</time> <a href>
 						<h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사입니다.</h3>
 				</a></li>
 
-				<li><a href> <img src="/resources/images/kakao.jpg" alt="">
+				<li><a href="#" onclick="return false"> <img src="/resources/images/kakao.jpg" alt="">
 				</a> <time datetime="">MAY 26, 2020</time> <a href>
 						<h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사입니다.</h3>
 				</a></li>
