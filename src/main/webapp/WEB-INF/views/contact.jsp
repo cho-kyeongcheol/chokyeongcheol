@@ -98,6 +98,26 @@
   margin-bottom:0;
   }
 }
+
+/* PC용 CONTACT페이지 CSS*/
+@media all and (min-width:1132px){
+.contact-section .sec-tit{
+float:left;
+margin-bottom:0;
+}
+.contact-section .form-box{
+float:right;
+width:74.5583888%;
+}
+.contact-section .form-box .form,
+.contact-section .form-box .textarea{
+width:48.8151658777%; 
+}
+.contact-section .form-box .form{
+margin-right:2.3696666%;
+}
+
+}
 </style>
 
 </head>
@@ -149,9 +169,8 @@
 	</section>
 
 	<footer class="footer">
-		<iframe	src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.1908531424174!2d127.
-			18028131558675!3d36.83790497994078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b293c64087a5b%3A0x1873dee0e6399a00!2z67Cx7ISd66y47ZmU64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1513569521608"
-				width="600"	height="450" frameborder="0" style="border: 0" allowfullscreen>
+		<<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.1908531424174!2d127.18028131558675!3d36.83790497994078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b293c64087a5b%3A0x1873dee0e6399a00!2z67Cx7ISd66y47ZmU64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1513569521608" 
+			width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 		</iframe>
 		<p class="copyright">LOGO</p>
 	</footer>

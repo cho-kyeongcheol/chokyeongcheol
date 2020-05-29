@@ -79,9 +79,45 @@ margin-top:95px;
   .promotion-section .promo-list li img{
 	height:150px;
 }
-
+}
+/* PC용 CSS */
+@media all and (min-width:1132px){
+/* PC WE ARE 영역 CSS */
+.display-section{
+text-align:left;
+}
+.display-section .sec-tit{
+float:left;
+margin-bottom:0;
+}
+.display-section .desc{
+position:relative;
+float:right;
+padding-left:20px;
+font-family:"바탕";
+color:#616161;
+line-height:1.9;
+}
+.display-section .desc:before {
+display:block;
+position:absolute;
+top:9px;
+left:0;
+width:2px;
+height:44px;
+background:#1a30a7;
+content:"";
 }
 
+/* PC WE ARE 내용 영역 CSS */
+.promotion-section .promo-list li{
+width:23.674911111%;
+/*268px/1132px*/
+margin-left:1.76678445229682%;
+/*20px/1132px*/
+}
+
+}
 
 </style>
 <script src="/resources/js/jquery.min.js"></script>

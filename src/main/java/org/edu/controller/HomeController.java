@@ -66,6 +66,15 @@ public class HomeController {
 	
 	
 	
+	/** slide 페이지 파일 입니다. **/
+	@RequestMapping(value = "/slide", method = RequestMethod.GET)
+	public String slide(Locale locale, Model model) {
+				
+		return "slide";
+	}
+	
+	
+	
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
