@@ -113,8 +113,8 @@ hr {display:none;}
 /* ======================================================================== PC */
 
 /* button_style */
-.btn_line {text-align:center; font-size:0;}
-.btn_line a {margin-left:10px;}
+.btn_line {text-align:center; font-size:0;  }
+.btn_line a {margin-left:10px; }
 .btn_line a:first-child {margin-left:0;}
 .btn_srch {display:inline-block; width:70px; text-align:center; height:35px; font-size:14px; line-height:35px; vertical-align:middle; background:#384d75; color:#fff !important;}
 .btn_bbs {display:inline-block; width:70px; text-align:center; height:35px; font-size:14px; line-height:35px; vertical-align:middle; background:#384d75; color:#fff !important;}

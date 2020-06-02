@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* 공통 CSS */
+
+
 .container {
 width:90%;
 max-width:1132px;
@@ -64,6 +66,7 @@ margin:5px 0;
 /* 푸터 영역 CSS */
 .footer {
 margin-top:30px;
+background : green;
 }
 .footer iframe {
 width:100%;
