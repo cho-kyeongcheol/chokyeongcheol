@@ -69,7 +69,7 @@ body, h1, h2, h3, h4, h5, h6, li, p ,button{
 			<span class="menu-toggle-btn"> <span></span> <span></span> <span></span>
 			</span>
 		</header>
-		</div>
+		
 		
 		<article class="slider">
 			<img src="/resources/images/kakao.jpg" alt="">
@@ -77,8 +77,8 @@ body, h1, h2, h3, h4, h5, h6, li, p ,button{
 		
 		<section class="content"> 
 			<section class="display-section">
-				<div class id="weare"="container">				
-					<h2 class="sec-tit">WE ARE</h2>
+				<div class="container">				
+					<h2 class="sec-tit" id="weare">WE ARE</h2>
 					<p class="desc">
 						"휴먼 교육센터 디지털 컨버전스 과정 입니다." <br> "그리고, 지금은 화면 설계 시간 입니다."
 					</p>
@@ -227,6 +227,7 @@ body, h1, h2, h3, h4, h5, h6, li, p ,button{
 		</iframe>
 			<p class="copyright">LOGO</p>
 		</footer>
+		</div>
 	
 	<a href="#" class="go_top">TOP</a> 
 	
@@ -253,6 +254,7 @@ body, h1, h2, h3, h4, h5, h6, li, p ,button{
     </div>
   </div>
 </div>
+	
 	
 </body>
 </html>
