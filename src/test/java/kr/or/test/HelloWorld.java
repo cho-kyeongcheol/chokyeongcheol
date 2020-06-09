@@ -2,64 +2,34 @@ package kr.or.test;
 
 import java.util.Scanner;
 
+class Tire{
+	public void  run( ) {  //메서드= 함수=function()
+		System.out.println("일반 타이어가 굴러갑니다.");
+	}
+}
+
+class SnowTire extends Tire {//상속=extends=>부모
+	public void run() {
+		System.out.println("스노우 타이어가 굴러갑니다.");
+	}
+}
+
+
 public class HelloWorld {
+		
+	public static void main(String[] args) {
+		//snowTire클래스형 변수
+		//new 키워드로 SnowTire() 메서드를 이용해서
+		//snowTire인스턴스클래스(메모리공간할당) 실행된 상태(아래)
+		SnowTire snowTire = new SnowTire(); //생성자 메서드 실행
+		Tire tire = new Tire();
+		tire.run();
+		SnowTire tire2 = new SnowTire();
+		tire2.run();	
+	}
+		
+}
+
 	
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		/*int sum = 0;
-		
-		
-		for(int i=1; i<=100; i++) {
-			sum += i;
-		};
-		
-		 int cnt = 1;
-		while(cnt<=100) {		
-			sum = sum + cnt;
-			cnt = cnt + 1;
-		} 
-		
-		System.out.println("1 부터 100까지 합은 " + sum + " 입니다");
-		*/
-		
-		boolean run = true;
-		int balance = 0;
-		Scanner scanner = new Scanner(System.in);
-		
-		while(run) {
-			
-			System.out.println("----------------------");
-			System.out.println("1.예금|2.출금|3.잔고|4.종료");
-			System.out.println("----------------------");
-			System.out.print("위 번호를 입력해주세요> ");
-			
-			int menuNum = scanner.nextInt();
-			
-			switch(menuNum) {
-			case 1:
-				System.out.println("입금액을 입력해주세요");			
-				balance = balance + scanner.nextInt();
-				System.out.println("잔액은"+ balance + "입니다");	
-				break;
-			case 2:
-				System.out.println("출금액을 입력해주세요");			
-				balance = balance - scanner.nextInt();	
-				System.out.println("잔액은"+ balance + "입니다");
-				break;
-			case 3:
-				System.out.println("잔고는 다음과 같습니다.>");
-				System.out.println(balance);
-				break;
-			case 4:
-				run = false;
-				break;
-			}
-			System.out.println();
-		}
-		System.out.println("프로그램 while문이 종료되었습니다.");
-				
-	}
-
-}
