@@ -3,7 +3,7 @@ package kr.or.test;
 
 public class Step2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //메인메서드
 		// TODO Auto-generated method stub
 		System.out.println("------------------------------------");
 		System.out.println("클래스를 사용한 사용자정의 자료형 소스");
@@ -15,16 +15,16 @@ public class Step2 {
 		MemberVO m2 = new MemberVO();
 		MemberVO m3 = new MemberVO();
 		
-		m1.setName("홍길동");
-		m1.setAge(45);
-		m1.setPhoneNum("000-0000-0000");		
+		m1.setName("조경철"); //이름변수입력
+		m1.setAge(45); //나이변수입력
+		m1.setPhoneNum("000-0000-0000"); //전화번호 변수 입력		
 		
-		m2.setName("성춘향");
+		m2.setName("조경철");
 		m2.setAge(100);
 		m2.setPhoneNum("111-1111-1111");
 
 		
-		m3.setName("각시탈");
+		m3.setName("조경철");
 		m3.setAge(3);
 		m3.setPhoneNum("222-2222-2222");
 		
@@ -46,15 +46,15 @@ public class Step2 {
 }
 
 class MemberVO {
-	private String name;
-	private int age;
-	private String phoneNum;
+	private String name; // memverVO클래스 안에서 name이란 스트링 변수선언
+	private int age; //age란 인트 변수선언
+	private String phoneNum; //phoneNum이란 스트링 변수선언
 	
 			
 	@Override
 	public String toString() {
 		return "MemberVO [name=" + name + ", age=" + age + ", phoneNum=" + phoneNum + "]";
-	}
+	} 
 	public String getName() { //출력
 		return name;
 	}

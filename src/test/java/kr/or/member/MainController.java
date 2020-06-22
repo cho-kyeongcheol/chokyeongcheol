@@ -12,7 +12,6 @@ import org.apache.commons.net.ntp.NTPUDPClient;
 import org.apache.commons.net.ntp.TimeInfo;
 
 import kr.or.member.MemberService;
-import kr.or.member.MemberVO;
 
 public class MainController {
 	
@@ -31,16 +30,16 @@ public class MainController {
 		MemberVO m2 = new MemberVO();
 		MemberVO m3 = new MemberVO();
 		
-		m1.setName("홍길동");
+		m1.setName("조경철");
 		m1.setAge(45);
 		m1.setPhoneNum("000-0000-0000");		
 		
-		m2.setName("성춘향");
+		m2.setName("조경철");
 		m2.setAge(100);
 		m2.setPhoneNum("111-1111-1111");
 
 		
-		m3.setName("각시탈");
+		m3.setName("조경철");
 		m3.setAge(3);
 		m3.setPhoneNum("222-2222-2222");
 		
