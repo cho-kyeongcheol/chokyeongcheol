@@ -22,7 +22,8 @@
 <body class="hold-transition sidebar-mini">
 
 	<div class="wrapper">
-	
+
+
 		<!-- Navbar -->
 		<nav
 			class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -136,9 +137,21 @@
 
 
 
+
 				<!-- /.card-header -->
 				<div class="card-body">
 					<form role="form">
+
+						<span
+							style="
+							font-style: italic; 
+							font-weight: bold; 
+							font-size: 1.5em;
+							 line-height: 1.0em;
+							  color: red; ">
+							READ Member 
+							</span>
+
 						<div class="row">
 							<div class="col-sm-6">
 								<!-- text input -->
@@ -146,7 +159,7 @@
 									<label><font style="vertical-align: inherit"><font
 											style="vertical-align: inherit">user_id</font></font></label> <input
 										type="text" class="form-control"
-										placeholder="Enter Title......">
+										value="user02" disabled>
 								</div>
 							</div>
 						</div>
@@ -156,19 +169,7 @@
 								<div class="form-group">
 									<label><font style="vertical-align: inherit"><font
 											style="vertical-align: inherit">user_pw</font></font></label> <input
-										type="text" class="form-control" placeholder="Enter Writer">
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-6">
-								<!-- text input -->
-								<div class="form-group">
-									<label><font style="vertical-align: inherit"><font
-											style="vertical-align: inherit">user_name</font></font></label> <input
-										type="text" class="form-control"
-										placeholder="Enter Title......">
+										type="text" class="form-control" value="user02" disabled>
 								</div>
 							</div>
 						</div>
@@ -180,7 +181,7 @@
 									<label><font style="vertical-align: inherit"><font
 											style="vertical-align: inherit">email</font></font></label> <input
 										type="text" class="form-control"
-										placeholder="Enter Title......">
+										value="user02@edu.com" disabled>
 								</div>
 							</div>
 						</div>
@@ -192,49 +193,41 @@
 									<label><font style="vertical-align: inherit"><font
 											style="vertical-align: inherit">point</font></font></label> <input
 										type="text" class="form-control"
-										placeholder="Enter Title......">
+										value="0" disabled>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-6">
+								<!-- text input -->
+								<div class="form-group">
+									<label><font style="vertical-align: inherit"><font
+											style="vertical-align: inherit">enabled</font></font></label> <input
+										type="text" class="form-control"
+										value="true" disabled>
 								</div>
 							</div>
 						</div>
 						
-					<div class="row">
-                    <div class="col-sm-6">
-                      <!-- select -->
-                      <div class="form-group">
-                        <label>enabled</label>
-                        <select class="form-control">
-                          <option>option 1</option>
-                          <option>option 2</option>
-                          <option>option 3</option>
-                          <option>option 4</option>
-                          <option>option 5</option>
-                        </select>
-                      </div>
-                    </div>
-                    </div>
-						
-						
-						<br>
-						
 						<div class="row">
-                    <div class="col-sm-6">
-                      <!-- select -->
-                      <div class="form-group">
-                        <label>level</label>
-                        <select class="form-control">
-                          <option>option 1</option>
-                          <option>option 2</option>
-                          <option>option 3</option>
-                          <option>option 4</option>
-                          <option>option 5</option>
-                        </select>
-                      </div>
-                    </div>
-                    </div>
+							<div class="col-sm-6">
+								<!-- text input -->
+								<div class="form-group">
+									<label><font style="vertical-align: inherit"><font
+											style="vertical-align: inherit">level</font></font></label> <input
+										type="text" class="form-control"
+										value="ROLE_ADMIN" disabled>
+								</div>
+							</div>
+						</div>
+
 						
+
 						<br>
 
-						<button type="button" class="btn btn-warning">Submit</button>
+						<button type="button" class="btn btn-warning">UPDATE</button>
+						<button type="button" class="btn btn-danger">DELETE</button>
 						<button type="button" class="btn btn-primary">LIST ALL</button>
 					</form>
 
