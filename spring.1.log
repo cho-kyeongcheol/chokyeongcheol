@@ -1,6 +1,2 @@
-2020-06-22 10:49:41,864  INFO [kr.or.test.Log4jTest] test라는 메서드를 사용한 pc의 아이피는 : 192.168.56.1
-2020-06-22 10:49:41,880 DEBUG [kr.or.test.Log4jTest] 디버그!!MemberVO [name=홍길동, age=24, phoneNum=null]
-2020-06-22 10:49:41,880  INFO [kr.or.test.Log4jTest] 인포!!
-2020-06-22 10:49:41,880  WARN [kr.or.test.Log4jTest] 워닝!!
-2020-06-22 10:49:41,880 ERROR [kr.or.test.Log4jTest] 에러!!!
-2020-06-22 10:49:41,880 FATAL [kr.or.test.Log4jTest] 파탈에러@!@!@!@!@!@!
+2020-06-26 09:28:11,803  INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+2020-06-26 09:28:11,804 DEBUG [org.springframework.jdbc.datasource.SimpleDriverDataSource] Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:dataSource]

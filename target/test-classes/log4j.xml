@@ -49,12 +49,15 @@
 	<logger name="org.springframework.web">
 		<level value="info" />
 	</logger>
+	
 
 	<!-- Root Logger -->
 	<root>
-		<priority value="info" />
+		<priority value="debug" />
 		<appender-ref ref="console" />
 		<appender-ref ref="fileLogger" />
 	</root>
+	
+	
 	
 </log4j:configuration>

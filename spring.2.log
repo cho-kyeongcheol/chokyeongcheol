@@ -1,12 +1,6 @@
-2020-06-22 10:49:39,930  INFO [kr.or.test.Log4jTest] 인포!!
-2020-06-22 10:49:39,930  WARN [kr.or.test.Log4jTest] 워닝!!
-2020-06-22 10:49:39,930 ERROR [kr.or.test.Log4jTest] 에러!!!
-2020-06-22 10:49:39,930 FATAL [kr.or.test.Log4jTest] 파탈에러@!@!@!@!@!@!
-2020-06-22 10:49:40,959  WARN [org.apache.log4j.joran.action.PriorityAction] Priority element has been deprecated, please use <level> instead.
-2020-06-22 10:49:40,975  INFO [kr.or.test.Log4jTest] test라는 메서드를 사용한 pc의 아이피는 : 192.168.56.1
-2020-06-22 10:49:40,975 DEBUG [kr.or.test.Log4jTest] 디버그!!MemberVO [name=홍길동, age=24, phoneNum=null]
-2020-06-22 10:49:40,975  INFO [kr.or.test.Log4jTest] 인포!!
-2020-06-22 10:49:40,975  WARN [kr.or.test.Log4jTest] 워닝!!
-2020-06-22 10:49:40,975 ERROR [kr.or.test.Log4jTest] 에러!!!
-2020-06-22 10:49:40,975 FATAL [kr.or.test.Log4jTest] 파탈에러@!@!@!@!@!@!
-2020-06-22 10:49:41,864  WARN [org.apache.log4j.joran.action.PriorityAction] Priority element has been deprecated, please use <level> instead.
+2020-06-26 09:28:11,797  INFO [org.springframework.web.context.support.GenericWebApplicationContext] Closing org.springframework.web.context.support.GenericWebApplicationContext@79be0360: startup date [Fri Jun 26 09:28:09 KST 2020]; root of context hierarchy
+2020-06-26 09:28:11,801 DEBUG [org.mybatis.spring.SqlSessionUtils] Creating a new SqlSession
+2020-06-26 09:28:11,801 DEBUG [org.mybatis.spring.SqlSessionUtils] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36ac0e4b] was not registered for synchronization because synchronization is not active
+2020-06-26 09:28:11,801 DEBUG [org.mybatis.spring.SqlSessionUtils] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36ac0e4b]
+2020-06-26 09:28:11,802 DEBUG [org.springframework.jdbc.datasource.DataSourceUtils] Fetching JDBC Connection from DataSource
+2020-06-26 09:28:11,802 DEBUG [org.springframework.jdbc.datasource.SimpleDriverDataSource] Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:dataSource]
