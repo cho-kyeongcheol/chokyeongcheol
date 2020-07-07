@@ -30,26 +30,19 @@
 				<h3>게시판 등록</h3>
 			</div>
 		</div>
-
-
-
-
 		<div class="col-12">
 			<!-- general form elements disabled -->
 			<div class="card card-warning">
-
-
-
 				<!-- /.card-header -->
 				<div class="card-body">
-					<form role="form" action="/admin/board/write" method="post" enctype="multipart/form-date">
+					<form role="form" action="/admin/board/write" method="post" encType="multipart/form-data">
 						<div class="row">
 							<div class="col-sm-6">
 								<!-- text input -->
 								<div class="form-group">
 									<label>Title</label> <input name="title"
 										type="text" class="form-control"
-										placeholder="Enter Title......">
+										placeholder="Enter Title.">
 								</div>
 							</div>
 						</div>

@@ -102,6 +102,11 @@
 						<nav aria-label="Contacts Page Navigation">
 							<ul class="pagination justify-content-center m-0">
 								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item active"><a class="page-link" href="#">2</a></li>
+								<li class="page-item active"><a class="page-link" href="#">3</a></li>
+								<li class="page-item active"><a class="page-link" href="#">4</a></li>
+								<li class="page-item active"><a class="page-link" href="#">5</a></li>
+								
 							</ul>
 						</nav>
 				

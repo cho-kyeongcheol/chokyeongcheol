@@ -31,7 +31,7 @@ public class DebugAdvice {
 	 */
 	
 	// @Around 대상 객체의 메서드 실행 전, 후 또는 예외 발생 시점에 공통 기능을 실행
-	@Around("execution(* org.edu.service.MemberService*.*(..))")//...495p.주석.트랜잭션.
+	@Around("execution(* org.edu.controller.AdminController.*(..))")//...495p.주석.트랜잭션.
 	public Object timeLog(ProceedingJoinPoint pjp)throws Throwable{
 		    
 	  logger.debug("S.debugLog.=============================================");
