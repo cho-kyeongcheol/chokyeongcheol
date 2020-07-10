@@ -6,7 +6,6 @@ import org.edu.vo.BoardVO;
 import org.edu.vo.PageVO;
 
 public interface IF_BoardService {
-	
 	public void insertBoard(BoardVO boardVO) throws Exception;
 	public List<BoardVO> selectBoard(PageVO pageVO) throws Exception;
 	public void updateBoard(BoardVO boardVO) throws Exception;

@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class BoardDAOImpl implements IF_BoardDAO {
-	
+
 	private static String mapperQuery = "org.edu.dao.IF_BoardDAO";
 	
 	@Inject
@@ -21,7 +21,7 @@ public class BoardDAOImpl implements IF_BoardDAO {
 
 	@Override
 	public void insertBoard(BoardVO boardVO) throws Exception {
-		sqlSession.insert(mapperQuery + ".insertBoard" , boardVO);
+		sqlSession.insert(mapperQuery + ".insertBoard", boardVO);		
 	}
 
 	@Override
@@ -32,12 +32,11 @@ public class BoardDAOImpl implements IF_BoardDAO {
 	@Override
 	public void updateBoard(BoardVO boardVO) throws Exception {
 		sqlSession.update(mapperQuery + ".updateBoard", boardVO);
-		
 	}
 
 	@Override
 	public void deleteBoard(Integer bno) throws Exception {
-		sqlSession.delete(mapperQuery + ".deleteBoard",bno);
+		sqlSession.delete(mapperQuery + ".deleteBoard", bno);
 	}
 
 	@Override
@@ -62,15 +61,16 @@ public class BoardDAOImpl implements IF_BoardDAO {
 
 	@Override
 	public void updateAttach(String fullName, Integer bno) throws Exception {
-		Map<String, Object> paramMap = new HashMap<String, Object> ();
+		Map<String, Object> paramMap = new HashMap<String, Object>();
 		paramMap.put("bno", bno);
-		paramMap.put("fullname", fullName); //테이블 필드명과 동일하게
+		paramMap.put("fullname", fullName);
 		sqlSession.insert(mapperQuery + ".updateAttach", paramMap);
-		
 	}
 
 	@Override
 	public int countBno(PageVO pageVO) throws Exception {
 		return sqlSession.selectOne(mapperQuery + ".countBno", pageVO);
 	}
+
+	
 }
