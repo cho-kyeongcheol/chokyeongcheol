@@ -22,16 +22,18 @@
 		<property name="username" value="sa" />
 		<property name="password" value="" />
 	</bean> 
-	<!-- CREATE TABLE 초기 1회만 실행 -->
+	<!-- CREATE TABLE 초기 1회만 실행 
 	<jdbc:initialize-database data-source="dataSource" ignore-failures="DROPS"> 
 		<jdbc:script location="classpath:/db/embeded_edu_dummy.sql" /> 
 	</jdbc:initialize-database>
+	-->
 	
 	<!-- hsql 메모리DB용 
     <jdbc:embedded-database id="dataSource" type="HSQL">
 		<jdbc:script location= "classpath:/db/edu_hsql.sql"/>
 	</jdbc:embedded-database>
 	-->
+	
 	<!-- 테스트 실행용 DB매니저 실행:실제 사용시 아래 value - - 공백제거 하세요. 
 	<bean depends-on="dataSource"
 	class="org.springframework.beans.factory.config.MethodInvokingBean">
@@ -99,8 +101,7 @@
 	    	ref="sqlSessionFactory"></constructor-arg>
 	 </bean>
 	 <context:component-scan base-package="org.edu.dao" />	
-	 <context:component-scan base-package="org.edu.service" />	
-	 
+	 <context:component-scan base-package="org.edu.service" />
 	 <context:component-scan base-package="org.edu.aop"></context:component-scan>
 	 <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 	 <aop:config></aop:config>
