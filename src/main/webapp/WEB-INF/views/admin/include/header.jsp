@@ -15,12 +15,13 @@
   <link rel="stylesheet" href="/resources/dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <script>
+<script>
 if('${msg}' != ""){
-   alert(" ${msg}에 성공하였습니다.!");
+	alert("${msg} 에 성공하였습니다.!");
 }
 </script>
-  
+<!-- jQuery코어 -->
+<script src="/resources/plugins/jquery/jquery.min.js"></script>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -113,9 +114,7 @@ if('${msg}' != ""){
           </li>
         </ul>
       </nav>
-      
       <!-- /.sidebar-menu -->
     </div>
-    
     <!-- /.sidebar -->
   </aside>

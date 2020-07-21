@@ -153,14 +153,14 @@
           
           <form class="form-inline ml-3">
       <div class="input-group input-group-sm">
-        <input class="form-control form-control-navbar" type="search" placeholder="---" aria-label="Search">
         <div class="input-group-append">
-          <select name="search">
-    <option value="">↓</option>
-</select><button class="btn btn-navbar" type="submit">            
+          <select id="searchType">
+   	 <option value="">↓</option>
+</select>
+<button class="btn btn-navbar" type="submit">            
           </button>
         </div>        
-        <input class="form-control form-control-navbar" type="" placeholder="---" aria-label="Search">
+        <input class="form-control form-control-navbar" type=""  aria-label="Search">
         <div class="input-group-append">
           <button  type="submit">
             	검색
@@ -198,7 +198,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0">
-                <table class="table table-hover text-nowrap">
+                <table class="table table-hover text-nowrap even_table">
                   <thead>
                     <tr>
                       <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">신분증</font></font></th>
@@ -208,7 +208,7 @@
                       <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">이유</font></font></th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody >
                     <tr>
                       <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">183</font></font></td>
                       <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">존 도우</font></font></td>
@@ -238,6 +238,21 @@
                       <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">베이컨 ipsum dolor 앉아 amet 살라미 사슴 고기 닭 측면 fatback doner.</font></font></td>
                     </tr>
                   </tbody>
+               	</table>
+               	
+				<table class="table table-hover text-nowrap">
+                  <tr>
+           	 <td> <button type="submit" class="btn btn-primary">CREATE</button>
+               </td>
+          
+	           <td>
+	              <nav aria-label="Contacts Page Navigation">
+	            <ul class="pagination justify-content-center m-0">
+	              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+	            </ul>
+        	  </nav>
+               </td>
+               </tr>
                 </table>
               </div>
               <!-- /.card-body -->
@@ -262,7 +277,7 @@
 
   <!-- Main Footer -->
   
-</div>
+</div>x
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
@@ -273,7 +288,43 @@
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
+<script>
+function myFunc() { //function 함수이름()
+	alert('테스트');
+}
+
+myFunc(); //함수호출==실행
+$(document).ready(function(){ //함수명 없이 실행 == 콜백함수.
+	alert('테스트2');
+	$(".even_table tbody tr:even").css({"background-color":"black","color":"white"});
+	var cnt = 131;
+	$(".btn-primary").bind("click",function(event){
+		$(".even_table tbody tr").each(function(index,item){
+			$(item).addClass("hong_" + index); //class="hong_0","hong_"		
+		})
+		//$("<tr><td>" + cnt + "</td><td>한줄추가</td><td>2020.07.15</td><td>100</td><td>김용현김용현김용현김용현김용현김용현김용현</td></tr>").prependTo(".even_table tbody");
+		//cnt = cnt + 1;
+	});
+	
+	//$("table thead th").css({"background":"red"});
+	//$("#searchType").css({"width":"150px"});//제이쿼리 JS
+	//document.getElementById("searchType").style.width="200px"; //오리지널 js
+	//$(".btn-primary").css({"background-color":"red"});
+	//$("tr").css("background-color","red");
+	//$("tr").css({"background-color":"red" , "color" : "blue"});
+});
+
+/* function() { //콜백함수 호출없이 실행
+	alert('테스트2');
+} */
+
+</script>
+
+
+
 </div>		<!-- Content Wrapper. Contains page content -->
+
+
 <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">

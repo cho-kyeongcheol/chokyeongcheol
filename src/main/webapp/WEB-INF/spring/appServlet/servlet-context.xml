@@ -14,11 +14,13 @@
 
 	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
 	<resources mapping="/resources/**" location="/resources/" />
+	<resources mapping="/favicon.ico" location="/favicon.ico" />
+	
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
-	</beans:bean>	
+	</beans:bean>
 	
 	<context:component-scan base-package="org.edu.controller" />
 	<context:component-scan base-package="org.edu.util" />
@@ -33,11 +35,10 @@
 	    </beans:constructor-arg>
 	</beans:bean>
 	
-	<!-- 업로드한 파일이 저장되는 위치: 로컬PC용  
+	<!-- 업로드한 파일이 저장되는 위치: 로컬PC용 
 	<beans:bean id="uploadPath" class="java.lang.String">
 	    <beans:constructor-arg value="C:\\egov\\workspace\\upload">
 	    </beans:constructor-arg>
 	</beans:bean>
 	-->
-	
 </beans:beans>
