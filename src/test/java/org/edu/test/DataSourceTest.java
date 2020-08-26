@@ -36,10 +36,10 @@ public class DataSourceTest {
 	@Test
 	public void testInsertMember() throws Exception {
 		MemberVO memberVO = new MemberVO();
-		memberVO.setUser_id("kimilguk");
+		memberVO.setUser_id("kyeongcheol");
 		memberVO.setUser_pw("1234");
-		memberVO.setUser_name("조경철");
-		memberVO.setEmail("Kimilguk@naver.com");
+		memberVO.setUser_name("kyeongcheol");
+		memberVO.setEmail("kyeongcheol@naver.com");
 		memberVO.setPoint(100);
 		memberVO.setEnabled(true);
 		memberVO.setLevels("ROLE_USER");
@@ -52,10 +52,10 @@ public class DataSourceTest {
 	@Test
 	public void testUpdateMember() throws Exception {
 		MemberVO memberVO = new MemberVO();
-		memberVO.setUser_id("kimilguk");
+		memberVO.setUser_id("kyeongcheol");
 		memberVO.setUser_pw("1234");
-		memberVO.setUser_name("조경철");
-		memberVO.setEmail("Kimilguk@naver.com");
+		memberVO.setUser_name("kyeongcheol");
+		memberVO.setEmail("kyeongcheol@naver.com");
 		memberVO.setPoint(100);
 		memberVO.setEnabled(true);
 		memberVO.setLevels("ROLE_ADMIN");

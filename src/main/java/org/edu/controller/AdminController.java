@@ -62,7 +62,7 @@ public class AdminController {
 		//모델클래스로 jsp화면으로 boardService에서 셀렉트한 list값을 boardList변수명으로 보낸다.
 		//model { list -> boardList -> jsp }
 		model.addAttribute("boardList", list);
-		model.addAttribute("pageVO", pageVO);
+		model.addAttribute("pageVO", pageVO); // 모델로 pageVO를 가져온다
 		return "admin/board/board_list";
 	}
 	/**

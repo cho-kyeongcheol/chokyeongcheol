@@ -462,7 +462,7 @@ body footer p small a:hover, body footer p small a:active {
 	<header>
 		<div class="row">
 			<h1 id="brand">
-				<a href="javascript:;">김일국</a>
+				<a href="javascript:;">조경철</a>
 			</h1>
 			<div class="hamberger">
 				<a id="pull" href="javascript:;"></a>

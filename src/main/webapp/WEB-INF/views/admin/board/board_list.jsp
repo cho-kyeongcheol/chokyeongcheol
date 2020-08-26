@@ -98,7 +98,7 @@
 									<ul class="pagination" style="position:relative;left:40%;">
 					            <c:if test="${pageVO.prev}">
 					            <li class="page-item">
-					            		<a class="page-link" href="/admin/board/list?page=${pageVO.startPage-1}&searchType=${pageVO.searchType}&searchKeyword=${pageVO.searchKeyword}">이전</a>            
+					            	<a class="page-link" href="/admin/board/list?page=${pageVO.startPage-1}&searchType=${pageVO.searchType}&searchKeyword=${pageVO.searchKeyword}">이전</a>            
 					            </li>
 					            </c:if>
 					            <c:forEach begin="${pageVO.startPage}" end="${pageVO.endPage}" var="idx">
